@@ -16,5 +16,7 @@ jobs:
   include:
     - stage: test
       script: "/gradlew testDebugUnitTest"
+      skip_cleanup: true
     - stage: build
       script: "./build-apk.sh"
+      skip_cleanup: true

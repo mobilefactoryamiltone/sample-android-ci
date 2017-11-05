@@ -30,11 +30,11 @@ xcode-select --install
 
 # Available Actions
 ## Android
-### android test_lane
+### android build_debug
 ```
-fastlane android test_lane
+fastlane android build_debug
 ```
-My First Lane
+build
 
 ----
 

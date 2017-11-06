@@ -34,6 +34,17 @@ platform :android do
     sh 'mv '+initial_apk_path+' '+final_apk_path    
 end
 
+  desc "unit tests"
+  lane :unit_tests do |options|
+    gradle(
+      task: "clean",
+    )    
+    gradle(
+      task: "testDebugUnitTest",
+    )
+  end
+
+
   after_all do |lane|
   end
 

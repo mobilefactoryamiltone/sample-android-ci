@@ -19,21 +19,21 @@ public class BLEDeviceMockImplTest {
     }
 
     @Test
-    public void getLastValue() throws Exception {
+    public void getLastValue() {
         String lastValue = bleDevice.getLastValue();
         assertThat(lastValue).isNotNull();
         assertThat(lastValue.length()).isGreaterThan(0);
     }
 
     @Test
-    public void getLastValues() throws Exception {
+    public void getLastValues() {
         List<String> lastValues = bleDevice.getLastValues();
         assertThat(lastValues).isNotNull();
         assertThat(lastValues.size()).isEqualTo(15);
     }
 
     @Test
-    public void pairConnectDevice() throws Exception {
+    public void pairConnectDevice() {
         bleDevice.pairConnectDevice();
         assertThat(bleDevice.getStatus()).isEqualTo(BLEDevice.CONNECTED);
     }

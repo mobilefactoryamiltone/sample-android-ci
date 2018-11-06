@@ -5,37 +5,22 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.001703">
+      <testcase classname="fastlane.lanes" name="0: Verifying fastlane version" time="0.019048">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.001898">
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.001715">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: gradle" time="3.753592">
+      <testcase classname="fastlane.lanes" name="2: gradle" time="1.985077">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: gradle" time="6.873104">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="4: gradle" time="2.312921">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="5: mkdir -p ../build/apk/" time="0.006439">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="6: mv /Users/amiltonedev_lt027/Documents/workspace-tmp/sample-android-ci/app/build/outputs/apk/app-debug.apk ../build/apk/sample-ci-201711051458.apk" time="0.007213">
+      <testcase classname="fastlane.lanes" name="3: gradle" time="7.328196">
         
       </testcase>
     

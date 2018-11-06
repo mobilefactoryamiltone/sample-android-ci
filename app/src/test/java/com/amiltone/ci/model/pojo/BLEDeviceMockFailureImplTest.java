@@ -20,17 +20,17 @@ public class BLEDeviceMockFailureImplTest {
     }
 
     @Test
-    public void getLastValue() throws Exception {
+    public void getLastValue() {
         assertThat(bleDevice.getLastValue()).isNullOrEmpty();
     }
 
     @Test
-    public void getLastValues() throws Exception {
+    public void getLastValues() {
         assertThat(bleDevice.getLastValues()).isNullOrEmpty();
     }
 
     @Test
-    public void pairConnectDevice() throws Exception {
+    public void pairConnectDevice() {
         bleDevice.pairConnectDevice();
         assertThat(bleDevice.getStatus()).isEqualTo(BLEDevice.OFFLINE);
     }

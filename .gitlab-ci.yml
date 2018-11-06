@@ -1,6 +1,6 @@
 variables:
-  ANDROID_COMPILE_SDK: "26"
-  ANDROID_BUILD_TOOLS: "26.0.2"
+  ANDROID_COMPILE_SDK: "28"
+  ANDROID_BUILD_TOOLS: "28.0.2"
   ANDROID_SDK_FOLDER: "android-sdk-linux"
 
 before_script:
@@ -20,7 +20,7 @@ stages:
 unitTests:
   stage: test
   script:
-    - /usr/local/bin/fastlane unit_tests
+    - /usr/local/bin/fastlane unit_test
   tags:
     - android
 

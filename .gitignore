@@ -8,3 +8,7 @@
 /captures
 .externalNativeBuild
 /.idea
+.gitlab-ci.yml
+build-apk.sh
+fastlane/
+.gitlab-ci.yml
